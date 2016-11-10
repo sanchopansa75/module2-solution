@@ -32,7 +32,7 @@ p {
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .row-lg-1, .row-lg-2, .row-lg-3
+  .row-lg-1, .row-lg-2, .row-lg-3, .row-lg-11
    {
     float: left;
     border: 1px solid green;
@@ -45,6 +45,14 @@ p {
   }
   .row-lg-3 {
     width: 33%;
+  }
+  .row-lg-11 {
+    width: 10%;
+    color: yellow;
+    position: all;
+    top: 65 px;
+    left: 65 px;
+  }
   }
   
 }
@@ -92,9 +100,13 @@ p {
 <h1>Responsive Layout</h1>
 
 <div class="row">
-  <span class="row-lg-1 row-md-1 row-sm-1">Item 1</span>
-  <span class="row-lg-2 row-md-2 row-sm-2">Item 2</span>
-  <span class="row-lg-3 row-md-3 row-sm-3">Item 3</span>
+  <span class="row-lg-1 row-md-1 row-sm-1">
+  Item 1</span>
+  <span class="row-lg-11"> naziv<span>
+  <span class="row-lg-2 row-md-2 row-sm-2">
+  Item 2</span>
+  <span class="row-lg-3 row-md-3 row-sm-3">
+  Item 3</span>
 
 </div>
 
