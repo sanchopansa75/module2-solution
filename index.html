@@ -24,12 +24,7 @@ p {
   
   
 }
-#p1 {
-  background-color: #A52A2A;
-  position: absolute;
-  left: 280px;
-  top: 60px;
-}
+
 
 /*p {
   border: 1px solid black;
@@ -50,7 +45,7 @@ p {
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .row-lg-1, .row-lg-2, .row-lg-3/*, .row-lg-11*/
+  .row-lg-1,.p1, .row-lg-2, .row-lg-3/*, .row-lg-11*/
    {
     float: left;
     background-color: lightgrey;
@@ -63,6 +58,12 @@ p {
     border: 5px solid black;
     margin-right: 5px;
 
+  }
+  .p1 {
+  background-color: #A52A2A;
+  position: relative;
+  left: 280px;
+  top: 60px;
   }
    /* .row-lg-11 {
     width: 5%;
